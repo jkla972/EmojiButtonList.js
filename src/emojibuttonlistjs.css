@@ -1,5 +1,5 @@
 /*
- * EmojiButtonList.js Library v0.1.0
+ * EmojiButtonList.js Library v0.1.1
  *
  * Copyright 2021 Bunoon
  * Released under the GNU AGPLv3 license
@@ -39,10 +39,17 @@ div.emoji-drop-down div.emoji {
 
 div.emoji-drop-down div.emoji:hover {
   cursor: pointer;
-  -webkit-transition: all .2s;
-  transition: all .2s;
+  -webkit-transition: all .3s;
+  transition: all .3s;
   background-color: #282828;
   color: #F5F5F5;
+}
+
+div.emoji-drop-down div.emoji:active {
+  cursor: pointer;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  opacity: 0.7;
 }
 
 div.emoji-drop-down div.emoji:last-child {
