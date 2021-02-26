@@ -1,4 +1,4 @@
-Welcome to EmojiButtonList.js:
+# Welcome to EmojiButtonList.js:
 
 This is a JavaScript library that creates a small dropdown list of selectable Emojis.
 
